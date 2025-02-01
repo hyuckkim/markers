@@ -13,10 +13,6 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: azure()
 	},
-	server: {
-		allowedHosts: 'markers.run.goorm.io',
-		host: 'true',
-	}
 };
 
 export default config;
